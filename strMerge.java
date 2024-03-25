@@ -44,6 +44,7 @@ public class strMerge {
         }
     }
     public static void main(String[] args) {
+        // String arr[] = {"sun", "earth", "mars", "mercury"};
         String arr[] = {"sun", "earth", "mars", "mercury"};
         mergeSort(arr, 0, arr.length-1);
         printArr(arr);
